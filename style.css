@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.header{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+padding: 0 80px;                /* 👈 spacing from left and right edge */
+  height: 80px;
+}
+
+.header .logo
+{
+font-family: 'Roboto' ,Arial;
+font-size: 20px;
+color: #f9faf8;
+}
+
+
+.links
+{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ a {
+  text-decoration: none;
+  color: inherit;
+}
+.links ul {
+  display: flex;
+  gap: 20px; /* optional: space between links */
+  list-style: none; /* remove bullets */
+   margin: 0;
+  padding: 0;
+  
+}
+.Hero.Text
+{
+font-family: 'Roboto';
+
+}
+.Hero.Text h2
+{
+font-size: 48px;
+color:#f9faf8;
+font-weight: 900;
+margin-bottom: 20px;
+padding-left: 280px;
+}
+
+.Hero.Text h6
+{
+font-size: 18px;
+color: #e5e7eb;
+font-weight: 300;
+font-style: italic;
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 50px;
+padding-left: 280px;
+}
+
+.Hero-img {
+  width: 400px;
+  height: auto;
+  background-color: gray;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 70%;
+}
+.top
+{
+    background-color: #1f2937;
+   padding-top: 5px; /* 👈 controls the gap above the header */
+  min-height: 200px; /* if needed */
+}
+
+ 
+.Middle h4
+{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.Middle {
+  text-align: center;
+  padding: 30px;
+}
+
+.image-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.img-card {
+  width: 200px;
+}
+
+.img-box {
+  width: 200px;
+  height: 200px;
+display: block;
+  background: #ccc;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.img-text {
+  margin-top: 6px;
+  font-size: 13px;
+  color: #555;
+}
+
+.Third {
+  text-align: center;
+  background-color: #e5e7eb;
+  height: 200px;
+  margin: 30px 0;
+  padding: 20px 0;
+
+
+}
+
+.Third h2{
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.quoter
+{
+  font-size: 18px;
+  text-align: right;
+  padding-right: 270px;
+
+
+}
+
+.Fourth {
+  height: 200px;           /* same height as .Third */
+  margin: 30px 0;          /* space above and below */
+  padding: 20px 0;         /* space inside top and bottom */
+  display: flex;           /* centers inner box horizontally */
+  justify-content: center;
+  align-items: center;     /* centers inner box vertically */
+}
+
+.cta-box {
+  background: #3882f6;     /* blue background */
+  color: white;            /* white text inside */
+  padding: 40px 80px;      /* spacing inside the box */
+  display: flex;           /* aligns text and button in a row */
+  justify-content: space-between; /* space between text and button */
+  align-items: center;     /* vertical centering */
+  border-radius: 8px;      /* slight round corners */
+  width: 80%;              /* adjusts size without full width */
+  max-width: 800px;        /* avoid being too wide on big screens */
+}
+
+.button {
+  background: #3882f6;     /* same blue color */
+  color: white;
+  border: 2px solid white; /* nice white outline */
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Fifth
+{
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  color: whitesmoke;
+  text-align: center;
+  width: 100%;
+  padding: 10px 100px;
+  
+  
+  
+}
