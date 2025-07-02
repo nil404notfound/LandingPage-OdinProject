@@ -26,8 +26,8 @@ This repository contains my solution to the **Landing Page** project from the [O
 
 ## 📁 Folder Structure
 
-landingpage/
-├── index.html         # Main HTML file
-├── style.css          # CSS stylesheet
-├── images/            # Folder for all image assets
-└── README.md          # Project documentation 
+landingpage/ 
+ ├── index.html         # Main HTML file
+ ├── style.css          # CSS stylesheet
+ ├── images/            # Folder for all image assets
+ └── README.md          # Project documentation 
